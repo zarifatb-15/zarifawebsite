@@ -1,13 +1,21 @@
-body{
-    background-color: #f4f4f4;
-    font-family: Arial, sans-serif;
-    padding: 30px;
-}
-h1{
-    color: #8d4747;
+header{
     text-align: center;
+    padding: 50px;
+    background-color: #ffe6e6;
 }
-p{
-    color: #555;
-    font-size: 18px;
+main{
+    display : flex;
+   justify-content: space-around;
+   padding:30px;
+}
+section{
+    background-color: #fff;
+    padding: 20px;
+    width: 40%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #ffe6e6;
 }
